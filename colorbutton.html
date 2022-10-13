@@ -1,0 +1,21 @@
+<body>
+	<button id = "red">red</button>
+	<button id = "yellow">yellow</button>
+	<button id = "green">green</button>
+	<div id = "light" style="width: 50px; height: 50px;"></div>
+</body>
+<script>
+	let red = document.getElementById("red");
+	let yellow = document.querySelector("#yellow");
+	let green = document.getElementById("light");
+
+	red.onclick = function() {
+		light.style.background = "red";
+	}
+	yelloe.onclick = function() {
+		light.style.background = "yellow";
+	}
+	green.onclick = function() {
+		light.style.background = "green";
+	}
+</script>

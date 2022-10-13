@@ -1,0 +1,17 @@
+<body>
+	<button id = "toggle">다크 모드</button>
+</body>
+
+<script>
+	let darkMode = false;
+	toggle.onclick = function(){
+		if(darkMode){
+			document.body.style.background = "white";
+			toggle.textContent = "다크 모드";
+		}else{
+			document.body.style.background = "black";
+			toggle.textContent = "라이트 모드";
+		}
+		darkMode = !darkMode;
+	}
+</script>
